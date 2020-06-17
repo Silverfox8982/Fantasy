@@ -196,7 +196,7 @@ public class BoardCreator : MonoBehaviour
         Tile t = Create();
 
         // Tile.Load 는 타일의 좌표와 스케일 값을 조정
-        Tile.Load(p, 0);
+        t.Load(p, 0);
         tiles.Add(p, t);
 
         return t;

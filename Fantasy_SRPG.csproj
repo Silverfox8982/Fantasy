@@ -306,31 +306,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\EasingControl.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\EasingEquations.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\TransformAnimationExtensions.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\TransformLocalEulerTweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\TransformLocalPositionTweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\TransformPositionTweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\TransformScaleTweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\Tweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\Animation\TacticsRPG_Scripts\Vector3Tweener.cs" />
-    <Compile Include="Assets\Spritpts\Common\State Machine\State.cs" />
-    <Compile Include="Assets\Spritpts\Common\State Machine\StateMachine.cs" />
-    <Compile Include="Assets\Spritpts\Common\View Model Component\Board.cs" />
-    <Compile Include="Assets\Spritpts\Common\View Model Component\CameraRig.cs" />
-    <Compile Include="Assets\Spritpts\Controller\Battle States\Battle_Controller.cs" />
-    <Compile Include="Assets\Spritpts\Controller\Battle States\BattleState.cs" />
-    <Compile Include="Assets\Spritpts\Controller\Battle States\initBattleState.cs" />
-    <Compile Include="Assets\Spritpts\Controller\Battle States\MoveTargetState.cs" />
-    <Compile Include="Assets\Spritpts\Controller\InputController.cs" />
-    <Compile Include="Assets\Spritpts\EventAtgs\InfoEnevtArgs.cs.cs" />
-    <Compile Include="Assets\Spritpts\InputTester.cs" />
-    <Compile Include="Assets\Spritpts\Model\LevelData.cs" />
-    <Compile Include="Assets\Spritpts\Model\Point.cs" />
-    <Compile Include="Assets\Spritpts\Model\PreProduction\BoardCreator.cs" />
-    <Compile Include="Assets\Spritpts\Model\PreProduction\BoardCreatorInspector.cs" />
-    <Compile Include="Assets\Spritpts\Model\Tile.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\EasingControl.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\EasingEquations.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\TransformAnimationExtensions.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\TransformLocalEulerTweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\TransformLocalPositionTweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\TransformPositionTweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\TransformScaleTweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\Tweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\Animation\TacticsRPG_Scripts\Vector3Tweener.cs" />
+    <Compile Include="Assets\Scritpts\Common\State Machine\State.cs" />
+    <Compile Include="Assets\Scritpts\Common\State Machine\StateMachine.cs" />
+    <Compile Include="Assets\Scritpts\Common\View Model Component\Board.cs" />
+    <Compile Include="Assets\Scritpts\Common\View Model Component\CameraRig.cs" />
+    <Compile Include="Assets\Scritpts\Controller\Battle States\Battle_Controller.cs" />
+    <Compile Include="Assets\Scritpts\Controller\Battle States\BattleState.cs" />
+    <Compile Include="Assets\Scritpts\Controller\Battle States\initBattleState.cs" />
+    <Compile Include="Assets\Scritpts\Controller\Battle States\MoveTargetState.cs" />
+    <Compile Include="Assets\Scritpts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scritpts\EventAtgs\InfoEnevtArgs.cs.cs" />
+    <Compile Include="Assets\Scritpts\InputTester.cs" />
+    <Compile Include="Assets\Scritpts\Model\LevelData.cs" />
+    <Compile Include="Assets\Scritpts\Model\Point.cs" />
+    <Compile Include="Assets\Scritpts\Model\PreProduction\BoardCreator.cs" />
+    <Compile Include="Assets\Scritpts\Model\PreProduction\BoardCreatorInspector.cs" />
+    <Compile Include="Assets\Scritpts\Model\Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />

@@ -3,6 +3,8 @@ using UnityEngine;
 using System.Collections;
 
 public class Battle_Controller : StateMachine
+     // 임시 코드
+
 {
     // 메인카메라의 컴포넌트
     // 카메라가 tileSelectionIndicator를 따라다니게 한다.
@@ -19,6 +21,10 @@ public class Battle_Controller : StateMachine
 
     // tileSelectionIndicator의 좌표를 표시한다.
     public Point pos;
+
+    public GameObject heroPrefab;
+    public Unit currentUnit;
+    public Tile currentTile { get { return board.GetTile(pos); } }
 
     void Start()
     {

@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4433322431953588}
   - component: {fileID: 114865510877411164}
+  - component: {fileID: 114810104352804948}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -291,6 +292,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1622659999891024}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114810104352804948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377745002896266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d464eb5cc98c164e93d0d0cf34f15b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1000
+  isNPC: 0
 --- !u!114 &114865510877411164
 MonoBehaviour:
   m_ObjectHideFlags: 1

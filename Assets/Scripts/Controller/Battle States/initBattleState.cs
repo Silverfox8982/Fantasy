@@ -23,7 +23,8 @@ public class InitBattleState : BattleState
         yield return null;
 
         // 현재 상태를 SelectUnitState로 변경한다.
-        owner.ChangeState<SelectUnitState>();
+        // 컷씬 재생으로 변경하였음.
+        owner.ChangeState<CutSceneState>();
     }
 
     // 임시 함수

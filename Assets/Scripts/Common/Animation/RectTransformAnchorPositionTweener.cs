@@ -19,4 +19,3 @@ public class RectTransformAnchorPositionTweener : Vector3Tweener
         rt.anchoredPosition = currentValue;
     }
 }
-

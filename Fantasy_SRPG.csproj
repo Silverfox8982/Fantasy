@@ -306,28 +306,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnchorTests.cs" />
+    <Compile Include="Assets\panel.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\EasingControl.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\EasingEquations.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\RectTransformAnchorPositionTweener.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\RectTransformAnimationExtensions.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\EasingControl.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\EasingEquations.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\TransformAnimationExtensions.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\TransformLocalEulerTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\TransformLocalPositionTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\TransformPositionTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\TransformScaleTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\Tweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TacticsRPG_Scripts\Vector3Tweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformAnimationExtensions.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalEulerTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformScaleTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\Tweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\Vector3Tweener.cs" />
     <Compile Include="Assets\Scripts\Common\State Machine\State.cs" />
     <Compile Include="Assets\Scripts\Common\State Machine\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Common\UI\LayoutAnchor.cs" />
     <Compile Include="Assets\Scripts\Common\UI\Panel.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\Battle_Controller.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\BattleState.cs" />
+    <Compile Include="Assets\Scripts\Controller\Battle States\CutSceneState.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\initBattleState.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\Move Sequence State.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\MoveTargetState.cs" />
     <Compile Include="Assets\Scripts\Controller\Battle States\Select Unit State.cs" />
+    <Compile Include="Assets\Scripts\Controller\ConversationController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scripts\Dialog\ObjData.cs" />
     <Compile Include="Assets\Scripts\Enums\Directions.cs" />
     <Compile Include="Assets\Scripts\EventAtgs\InfoEnevtArgs.cs.cs" />
     <Compile Include="Assets\Scripts\Extensions\DirectionsExtenstions.cs" />
@@ -338,6 +343,7 @@
     <Compile Include="Assets\Scripts\Temp\AnchorTests.cs" />
     <Compile Include="Assets\Scripts\View Model Component\Board.cs" />
     <Compile Include="Assets\Scripts\View Model Component\CameraRig.cs" />
+    <Compile Include="Assets\Scripts\View Model Component\ConversationPanel.cs" />
     <Compile Include="Assets\Scripts\View Model Component\LevelData.cs" />
     <Compile Include="Assets\Scripts\View Model Component\Movement\Fly Move.cs" />
     <Compile Include="Assets\Scripts\View Model Component\Movement\Movement.cs" />

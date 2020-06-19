@@ -364,6 +364,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\RectTransform.cs" />
     <Compile Include="Assets\Editor\ScriptableObjectUtility.cs" />
     <Compile Include="Assets\Editor\YourClassAsset.cs" />
     <Compile Include="Assets\Scripts\Editor\BoardCreatorInspector.cs" />

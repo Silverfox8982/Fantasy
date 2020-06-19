@@ -306,8 +306,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnchorTests.cs" />
-    <Compile Include="Assets\panel.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\EasingControl.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\EasingEquations.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\RectTransformAnchorPositionTweener.cs" />
@@ -341,6 +339,7 @@
     <Compile Include="Assets\Scripts\Model\SpeakerData.cs" />
     <Compile Include="Assets\Scripts\PreProduction\BoardCreator.cs" />
     <Compile Include="Assets\Scripts\Temp\AnchorTests.cs" />
+    <Compile Include="Assets\Scripts\Temp\PanelTests.cs" />
     <Compile Include="Assets\Scripts\View Model Component\Board.cs" />
     <Compile Include="Assets\Scripts\View Model Component\CameraRig.cs" />
     <Compile Include="Assets\Scripts\View Model Component\ConversationPanel.cs" />
